@@ -1,0 +1,3 @@
+service rabbitmq_server start
+tmqctl status
+sudo rabbitmqctl list_queues
