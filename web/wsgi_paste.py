@@ -7,7 +7,7 @@ from paste.deploy import loadapp
 # Instantiate the server
 httpd = make_server (
     '10.0.2.15', # The host name
-    80, # A port number where to wait for the request
+    8080, # A port number where to wait for the request
     loadapp('config:/root/workspace/train/web/cfg.ini') # The application object name, in this case a function
     )
 # Wait for a single request, serve it and quit
